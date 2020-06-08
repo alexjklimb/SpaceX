@@ -1,0 +1,81 @@
+
+
+body{
+    background-color:black;
+    background-image:url("rocket.jpg");
+    background-repeat:no-repeat;
+    background-position:50% -50%;
+    margin:0 auto;
+}
+.Logo{
+    font-size:30px;
+    color:white;
+    margin-right:30px;
+    margin-left:30px;
+    cursor:pointer;
+}
+.head{
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    padding-right:10px;
+    cursor:pointer;
+}
+.tinybutton{
+    width:15px;
+    height:2px;
+    background-color:white;
+}
+.box{
+    height:14px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin-right:30px;
+    cursor:pointer;
+}
+header{
+    padding-top:20px;
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+}
+.header{
+    display:flex;
+    align-items:flex-end;
+}
+.subject{
+    color:white;
+    margin-bottom:10px;
+}
+.main{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.button{
+    background-color:black;
+    border-width:2px;
+    border:solid white;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    width: 150px;
+    height:35px;
+    padding-top:20px;
+    text-align:center;
+    cursor:pointer;
+}
+.button:hover{
+    background-color:white;
+    color:black;
+}
+section{
+    display:flex;
+    position:relative;
+    top:60vh;
+    left: 50px;
+    flex-direction:column;
+    
+}
